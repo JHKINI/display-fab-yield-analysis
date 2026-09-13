@@ -122,7 +122,7 @@ Accuracy만 보면 83.76%로 나타났지만, 실제 Fail 21건 중 4건만 탐�
 Random Forest의 Feature Importance를 활용하여 불량 분류에 기여도가 높은 센서를 확인하였다.
 
 ![Random Forest Feature Importance Top20](images/rf_feature_importance_top20.png)
-<img src="images/rf_feature_importance_top20.png" width="700">
+
 ### Top 5 Sensors
 
 | Rank | Sensor | Importance |
@@ -142,7 +142,7 @@ Feature Importance Top20을 별도로 저장하여 주요 센서 후보를 추�
 Random Forest의 Feature Importance만으로는 각 센서가 개별 예측에 어떤 영향을 미치는지 충분히 설명하기 어렵기 때문에 SHAP을 활용하였다.
 
 ![SHAP Feature Importance Top20](images/shap_feature_importance_top20.png)
-<img src="images/shap_feature_importance_top20" width="700">
+
 ### SHAP Top 5 Sensors
 
 | Rank | Sensor |
